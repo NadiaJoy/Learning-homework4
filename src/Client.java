@@ -3,15 +3,19 @@ public class Client {
     double balance;
     long personalCode;
 
+    //p2, ex.2
     public Client(String name, double balance, long personalCode) {
         this.name = name;
         this.balance = balance;
         this.personalCode = personalCode;
     }
-
+    //p.2, ex.4
     public String greetings () {
-       String tere = "Tere";
-       return tere;
+        return "Tere";
+    }
+    //p2, ex.
+    public double balanceDifference (double firstClientBalance, double secondClientBalance) {
+        return  firstClientBalance - secondClientBalance;
     }
 
 }

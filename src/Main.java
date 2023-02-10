@@ -28,7 +28,10 @@ public class Main {
         Client tamm = new Client("Tamm Anna", 998.44, 491020112);
         //ex.5
         String tereClient = perepelkin.greetings() +", "+ perepelkin.name;
-        System.out.println(tereClient);
+        //System.out.println(tereClient);
+        //ex.7
+        double balanceDifference = tamm.balanceDifference(tamm.balance, ivanova.balance);
+        //System.out.println(balanceDifference);
 
 
 
