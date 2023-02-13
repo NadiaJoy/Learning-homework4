@@ -11,11 +11,11 @@ public class Main {
         int h = input.nextInt();
         System.out.println("Enter its width: ");
         int w = input.nextInt();
-        System.out.println("Enter its lengh: ");
+        System.out.println("Enter its length: ");
         int l = input.nextInt();
 
-        Figure figure = new Figure();
-        int figureVolume = figure.calcVolume(h, w, l);
+        Figure figure = new Figure(h, w, l);
+        int figureVolume = figure.calcVolume(figure.height, figure.width, figure.length);
         //ex.4
         System.out.println("Volume = " + figureVolume);
         //ex.5
