@@ -15,7 +15,7 @@ public class Main {
         int l = input.nextInt();
 
         Figure figure = new Figure(h, w, l);
-        int figureVolume = figure.calcVolume(figure.height, figure.width, figure.length);
+        int figureVolume = figure.calcVolume();
         //ex.4
         System.out.println("Volume = " + figureVolume);
         //ex.5
@@ -28,7 +28,6 @@ public class Main {
         Client tamm = new Client("Tamm Anna", 998.44, 49102011279L);
         //ex.5
         String tereClient = perepelkin.greetings() +", "+ perepelkin.name;
-
         //ex.7
         double balanceDifference = tamm.balanceDifference(tamm.balance, ivanova.balance);
 

@@ -12,9 +12,9 @@ public class Figure {
         this.length = figureLength;
     }
 
-    public int calcVolume (int height, int width, int length) {
+    public int calcVolume () {
         int volume;
-        volume = height * width * length;
+        volume = this.height * this.width * this.length;
         return volume;
     }
 
